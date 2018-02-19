@@ -1,0 +1,22 @@
+language: node_js
+node_js:
+  - "lts/*"  
+
+ branches:
+  only:
+  - master
+  
+install:
+- npm install -g hexo
+- npm install
+
+script:
+- hexo generate
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
