@@ -17,4 +17,4 @@ before_script:
 - chmod +x run-build.sh
 
 script:
-- run-build.sh
+- ./run-build.sh
