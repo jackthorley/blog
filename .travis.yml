@@ -14,6 +14,7 @@ before_script:
 - git config --global user.name "Jack Thorley"
 - git config --global user.email "jackthorley89@gmail.com"
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
+- chmod +x run-build.sh
 
 script:
 - ./run-build.sh
