@@ -16,12 +16,4 @@ before_script:
 - sed -i "s/__GITHUB_TOKEN__/${__GITHUB_TOKEN__}/" _config.yml
 
 script:
-- hexo deploy -g
-
-# deploy:
-#   provider: pages
-#   skip-cleanup: true
-#   github-token: $GITHUB_TOKEN
-#   keep-history: true
-#   on:
-#     branch: master
+- ./run-build.sh
