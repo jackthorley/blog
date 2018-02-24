@@ -81,7 +81,7 @@ nav:
 customize:
     show_all_posts: true
     social_links:
-    github: https://github.com/jackthorley
+        github: https://github.com/jackthorley
 
 plugins:
     google_analytics: 'UA-114451587-1'
