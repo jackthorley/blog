@@ -74,16 +74,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus-dark
-
-nav:
-    Home: /
-    About: /about/
-    
-customize:
-    show_all_posts: true
-    social_links:
-        github: https://github.com/jackthorley
-
+   
 plugins:
     google_analytics: 'UA-114451587-1'
     
